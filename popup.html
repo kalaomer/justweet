@@ -1,0 +1,49 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Justweet</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <style>
+
+      html, body {
+        height: 150px;
+        width: 250px;
+
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Open Sans", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        font-weight: 300;
+      }
+
+      #header {
+        display: block;
+        padding: 30px 40px 0px 40px;
+        text-align: center;
+
+        font-size: 32px;
+      }
+
+      #content {
+        display: block;
+        padding: 40px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="header">justweet</div>
+    <div id="content">Open source <a href="https://github.com/kalaomer/justweet">project</a> by <a target="_blank" href="https://twitter.com/kalaomer">kalaomer</a>.</div>
+  </body>
+</html>
+

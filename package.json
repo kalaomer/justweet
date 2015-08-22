@@ -1,0 +1,19 @@
+{
+  "name": "justweet",
+  "version": "0.1.0",
+  "description": "Retweet cleaner.",
+  "main": "originaltweet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omer Kala <kalaomer>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-util": "^3.0.6"
+  },
+  "dependencies": {
+    "mutation-summary": "0.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Justweet",
+  "description": "Retweet cleaner.",
+  "version": "0.1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/*"],
+      "js": ["node_modules/mutation-summary/src/mutation-summary.js", "originaltweet.js"]
+    }
+  ]
+}

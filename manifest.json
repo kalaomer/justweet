@@ -10,12 +10,13 @@
     "default_popup": "popup.html"
   },
   "permissions": [
-    "tabs"
+    "tabs", "storage"
   ],
   "content_scripts": [
     {
       "matches": ["*://twitter.com/*"],
-      "js": ["node_modules/mutation-summary/src/mutation-summary.js", "originaltweet.js"]
+      "js": ["js/content.js"],
+      "css": ["css/content/index.css"]
     }
   ]
 }

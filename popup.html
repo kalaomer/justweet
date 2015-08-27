@@ -13,7 +13,6 @@
     <style>
 
       html, body {
-        height: 150px;
         width: 250px;
 
         margin: 0;
@@ -36,14 +35,33 @@
 
       #content {
         display: block;
-        padding: 40px;
+        padding: 30px;
+      }
+
+      #footer {
+        color: #666;
+        padding: 0 40px 20px 40px;
+      }
+
+      #footer a {
+        color: #777;
       }
       
     </style>
+
+    <script type="text/javascript" src="/js/popup.js"></script>
   </head>
   <body>
     <div id="header">justweet</div>
-    <div id="content">Open source <a target="_blank" href="https://github.com/kalaomer/justweet">project</a> by <a target="_blank" href="https://twitter.com/kalaomer">kalaomer</a>.</div>
+
+    <div id="content">
+      <label>
+        <input type="checkbox" id="activation" name="activation"> Hide Retweets
+      </label>
+    </div>
+
+    <div id="footer">Justweet is an open source <a target="_blank" href="https://github.com/kalaomer/justweet">project</a>
+    </div>
   </body>
 </html>
 

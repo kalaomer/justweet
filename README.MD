@@ -19,11 +19,16 @@ npm install
 # global gulp installation
 npm install -g gulp
 
+# build files
+gulp build
+
 # watch files
 gulp watch
 ```
 
 ### TODO
-- Add checkbox for activate justweet.
-- Add clean list for who can show retweet in time line.
 - Allow own retweets.
+- Prepare for Safari and Firefox.
+
+#### DONE
+- - Add checkbox for activate justweet.
